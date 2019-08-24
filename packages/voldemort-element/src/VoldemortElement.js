@@ -103,6 +103,7 @@ export class VoldemortElement extends LitElement {
           width: 100%;
           background: #fff;
           border-bottom: 1px solid #ccc;
+          background-color: var(--header-background, yellow);
         }
 
         header ul {
