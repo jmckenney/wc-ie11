@@ -22,7 +22,10 @@
 
   <script type="module" src="./packages/voldemort-element/voldemort-element.js"></script>
   <script>
-    CustomStyleInterface.addCustomStyle(document.querySelector('style.document-style'));
+    setTimeout(function() {
+      CustomStyleInterface.addCustomStyle(document.querySelector('style.document-style'));
+    }, 1000)
+
   </script>
 </body>
 
