@@ -6,7 +6,7 @@
   <meta name="Description" content="Put your description here.">
   <base href="/">
 
-  <style>
+  <style  class="document-style">
     html, body {
       margin: 0;
       padding: 0;
@@ -21,6 +21,9 @@
   <voldemort-element title="Hello owc world!"></voldemort-element>
 
   <script type="module" src="./packages/voldemort-element/voldemort-element.js"></script>
+  <script>
+    CustomStyleInterface.addCustomStyle(document.querySelector('style.document-style'));
+  </script>
 </body>
 
 </html>
