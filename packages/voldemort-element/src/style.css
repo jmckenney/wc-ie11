@@ -1,0 +1,8 @@
+body:before {
+    content: "EXTERNAL STYLESHEET WAS LOADED";
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 30px;
+}
