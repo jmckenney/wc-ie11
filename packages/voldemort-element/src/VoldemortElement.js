@@ -49,6 +49,7 @@ export class VoldemortElement extends LitElement {
 
   render() {
     return html`
+    <link rel="stylesheet" href="/style.css">
       <header>
         <ul>
           <li>
