@@ -15,8 +15,8 @@ export default [
       ...config[0].plugins,
       cpy({
         // copy over all css files
-        files: ['*.css'],
-        dest: 'dist',
+        files: ['packages/voldemort-element/src/style.css'],
+        dest: 'dist/style.css',
         options: {
           // parents makes sure to preserve the original folder structure
           parents: true
