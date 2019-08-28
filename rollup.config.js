@@ -1,3 +1,9 @@
+import postcss from 'rollup-plugin-postcss';
 import { createCompatibilityConfig } from '@open-wc/building-rollup';
 
-export default createCompatibilityConfig({ input: './index.html' });
+export default createCompatibilityConfig({
+    input: './index.html',
+    plugins: [
+        postcss
+    ]
+});
