@@ -14,8 +14,8 @@ export default [
     plugins: [
       ...config[0].plugins,
       cpy({
-        // copy over all images files
-        files: ['**/*.css'],
+        // copy over all css files
+        files: ['*.css'],
         dest: 'dist',
         options: {
           // parents makes sure to preserve the original folder structure
